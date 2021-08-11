@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="https://logodownload.org/wp-content/uploads/2018/02/reddit-logo-16.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Reddit clone</title>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="https://png.pngitem.com/pimgs/s/121-1217716_reddit-logo-png-transparent-png.png" alt="" style="width: 95px;"></a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <input class="form-control" type="search" placeholder="Search Reddit">
+        <form class="d-flex">
+              <button class="btn btn-outline-primary mx-2 d-none d-md-block"  data-bs-target="#log" data-bs-toggle="modal" type="submit" id="#sign" style="margin-left: 30px; padding-top: 4px; padding-bottom: 4px;">LogIn</button>
+              <button class="btn bg-primary text-light mx-2 d-none d-md-block"  style="margin-right: 25px;">SignUp</button>
+        </form>  
+        
+      </div>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Options
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#"><i class="fas fa-coins"></i>&nbsp; Coins</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fas fa-shield-alt"></i>&nbsp; Premium</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-lightning"></i>&nbsp; PowerUp</a></li>
+              <li>
+                <a class="dropdown-item" aria-current="page" href="#"><i class="fab fa-wpexplorer"></i>&nbsp; Explore</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><i class="fas fa-cog"></i>&nbsp; Settings</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><i class="bi bi-question"></i>&nbsp; Help center</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><i class="bi bi-exclamation-circle-fill"></i>&nbsp; More</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><i class="bi bi-card-list"></i>&nbsp; Terms and policies</a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li>
+                <a href="#" class="dropdown-item"  data-bs-target="#log" data-bs-toggle="modal"><i class="bi bi-person-circle"></i> Sign Up & log In</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      
+    </nav>
+
+    <!-- card -->
+    <section class="show1 pt-2 mb-0">
+      <p class="lead">Trending today</p>
+    <div class="container">
+      <div class="row gy-4 text-align-center justify-content-between">
+        <div class="col" style="padding-right: 1px; margin-right:unset;">
+          <div class="card bg-dark text-white"  style="background-image: url(https://i.pinimg.com/564x/2d/87/13/2d8713de7f575e8229c4f588c67bbe1e.jpg); padding: 2px;">
+            
+            <div class="card-img">
+              <h5 class="card-title mt-5 text-light">Indian crime</h5>
+              <p class="card-text" style="font-size: 15px;">No Man's Sky
+                As No Man’s Sky celebrates its fifth anniversary, Hello Games
+                </p>
+              <a href="#" class="card-text text-light"><i class="bi bi-arrow-repeat"></i> Load more..</a>
+            </div>
+          </div>
+        </div>
+        <div class="col d-none d-md-block mb-0" style="padding-right: 1px;">
+          <div class="card bg-dark text-white mx-0" style="background-image: url(https://image.shutterstock.com/image-photo/paris-france-july-28-2016-260nw-460001668.jpg);">
+
+            <div class="card-img">
+              <h5 class="card-title mt-5 text-light">Domestic news</h5>
+              <p class="card-text">
+                IPCC Report
+                Climate change: IPCC report is "code red for humanity" 
+                </p>
+              <a href="#" class="card-text text-light"><i class="bi bi-arrow-repeat"></i> entertainment and more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col d-none d-md-block mb-0" style="padding-right: 1px;">
+          <div class="card bg-dark text-white" style="background-image: url(https://i.pinimg.com/736x/b3/7d/75/b37d75216537935016c061409719fea3.jpg);">
+
+            <div class="card-img">
+              <h5 class="card-title mt-5 text-dark">Cricket score</h5>
+              <p class="card-text">
+                No wonder England can't find good batsmen (apart from root) 
+                </p>
+              <a href="#" class="card-text text-light"><i class="bi bi-list"></i> Live score</a>
+            </div>
+          </div>
+        </div>
+        <div class="col d-none d-md-block mb-0" >
+          <div class="card bg-dark text-white" style="background-image: url(https://media.istockphoto.com/photos/tall-buildings-in-dallas-texas-picture-id146725546?k=6&m=146725546&s=612x612&w=0&h=kijQ-ddZY8hDDYxsdXXwND8z6h3C55UpSMZ25DH74qk=);">
+            <img src="" class="img-fluid" alt="">
+            <div class="card-img">
+              <h5 class="card-title mt-5 text-dark">International</h5>
+              <p class="card-text">IPCC Report Climate change: IPCC report is "code red for humanity" 
+                </p>
+              <a href="#" class="card-text text-light"><i class="bi bi-chevron-right"></i> Europe and more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <!-- popular posts -->
+   <section class="show mb-2">
+    <p class="lead1 pb-2">Popular posts</p>
+    <div class="container">
+    <div class="row g-4 aligned-items-start">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 py-1">
+          <div class="container">
+            <button class="navbar-brand active text-primary mx-0" href="#" style="border: none; border-radius: 20px; padding-right: 10px; padding-left: 10px;"><i class="fab fa-hotjar"></i>Hot</button>
+            <div class="dropdown">
+              <button class="btn5 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+               Everwhere
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#" style="color: #787C7E; font-weight: 600; font-size: 15px;">India</a></li>
+                <li><a class="dropdown-item" href="#" style="color: #787C7E; font-weight: 600; font-size: 15px;">Sports</a></li>
+                <li><a class="dropdown-item" href="#" style="color: #787C7E; font-weight: 600; font-size: 15px;">Entertainment</a></li>
+              </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="dropdown-item" href="#" style="font-weight: 600; color: #848788; border-radius: 20px; margin-top: 10px; padding-top: 5px;"><i class="bi bi-star"></i> New</button>
+                <a class="dropdown-item" href="#" style="font-weight: 700; color: #848788; border-radius: 20px; margin-top: 10px; padding-bottom: 2px; padding-top: 6px;"><i class="bi bi-arrow-bar-up"></i> Top</a>
+                <i class="bi bi-three-dots py-3 mx-3"></i>
+              </div>
+            </div>
+          
+
+          </div>
+        </nav>
+
+        <div class="row">
+
+        <div class="col-sm-8 col-lg-12 mb-2 mt-2">
+          <div class="card py-0 mt-0" style="width: fit-content; padding-right: 30px;">
+            <div class="card-body">
+              <p class="lead2">r/askreddit <span class="corn-let px-2">posted by u/undefined 20 hours ago.</span> <button class="btn4"><i class="fas fa-plus"></i> join</button></p>
+              <div class="h6">What is the weirdest thing you find extremely attractive? <button class="btn9">discussion</button></div>
+             <a href="#" style="color:#787C7E; text-decoration: none;"><i class="bi bi-hand-thumbs-up btn6" style="padding-right: 40px;"> 65k</i><i class="far fa-comment-alt btn6" style="padding-right: 40px;"> 28.5k comments</i> <i class="fas fa-share btn6" style="padding-right: 40px;"> Share</i> <i class="bi bi-three-dots"></i></a>
+            </div>
+          </div>
+          </div>
+      
+      
+      
+          <div class="col-sm-8 col-lg-12 mb-2">
+            <div class="card py-0 mt-0 pb-0" style="width: fit-content; padding-right: 35px;">
+              <div class="card-body">
+                <p class="lead2">r/askreddit <span class="corn-let px-2">posted by u/undefined 20 hours ago.</span><button class="btn4"><i class="fas fa-plus"></i> join</button></p>
+                <div class="h6">Late Night Random Discussion thread 08-August 2021 <button class="btn9" >discussion</button></div>
+                <!-- <img src="https://external-preview.redd.it/E8q42mqeBW0q1nwfBGL_u3hsiDq6ZicXjWEW5OTzAow.jpg?width=640&height=334&crop=smart&auto=webp&s=b32ffe1d04fa9afbd163e8f97f9fc38f0d358085" alt="" class="img-fluid"> -->
+               <a href="#" style="color:#787C7E; text-decoration: none;"><i class="bi bi-hand-thumbs-up btn6" style="padding-right: 40px;"> 65k</i><i class="far fa-comment-alt btn6" style="padding-right: 40px;"> 28.6k comments</i> <i class="fas fa-share btn6" style="padding-right: 40px;"> Share</i> <i class="bi bi-three-dots"></i></a>
+              </div>
+            </div>
+            </div> 
+      
+            <div class="col-sm-8 col-lg-12 mb-2">
+              <div class="card py-0 mt-0" style="width: fit-content; padding-right: 35px;">
+                <div class="card-body">
+                  <p class="lead2">r/askreddit <span class="corn-let px-2">posted by u/undefined 20 hours ago.</span><button class="btn4"><i class="fas fa-plus"></i> join</button></p>
+                  <div class="h6 mx-0">Currency.com is on this list, has anyone used them as a broker? <button class="btn9">discussion</button></div>
+                  <img src="https://external-preview.redd.it/E8q42mqeBW0q1nwfBGL_u3hsiDq6ZicXjWEW5OTzAow.jpg?width=640&height=334&crop=smart&auto=webp&s=b32ffe1d04fa9afbd163e8f97f9fc38f0d358085" alt="" class="img-fluid">
+                 <a href="#" style="color:#787C7E; text-decoration: none;"><i class="bi bi-hand-thumbs-up btn6" style="padding-right: 40px;"> 65k</i><i class="far fa-comment-alt btn6" style="padding-right: 40px;"> 28.5k comments</i> <i class="fas fa-share btn6" style="padding-right: 40px;"> Share</i> <i class="bi bi-three-dots"></i></a>
+                </div>
+              </div>
+              </div> 
+        </div>
+
+        <div class="row">
+
+          <div class="col-sm-8 col-lg-12 mb-2 mt-2">
+            <div class="card py-0 mt-0" style="width: fit-content; padding-right: 30px;">
+              <div class="card-body">
+                <p class="lead2">r/askreddit <span class="corn-let px-2">posted by u/undefined 20 hours ago.</span> <button class="btn4"><i class="fas fa-plus"></i> join</button></p>
+                <div class="h6">What is the weirdest thing you find extremely attractive? <button style="border-color: red; border-width: thin; color: red; font-size: 12px; margin-right: 40px; margin-left: 3px;">nsfw</button> </div>
+               <a href="#" style="color:#787C7E; text-decoration: none;"><i class="bi bi-hand-thumbs-up btn6" style="padding-right: 40px;"> 65k</i><i class="far fa-comment-alt btn6" style="padding-right: 40px;"> 28.6k comments</i> <i class="fas fa-share btn6" style="padding-right: 40px;"> Share</i> <i class="bi bi-three-dots"></i></a>
+              </div>
+            </div>
+            </div>
+        
+        
+        
+            <div class="col-sm-8 col-lg-12 mb-2">
+              <div class="card py-0 mt-0" style="width: fit-content; padding-right: 35px;">
+                <div class="card-body">
+                  <p class="lead2">r/askreddit <span class="corn-let px-2">posted by u/undefined 20 hours ago.</span><button class="btn4"><i class="fas fa-plus"></i> join</button></p>
+                  <div class="h6">Late Night Random Discussion thread 08-August 2021 <button class="btn9">discussion</button></div>
+                  <!-- <img src="https://external-preview.redd.it/E8q42mqeBW0q1nwfBGL_u3hsiDq6ZicXjWEW5OTzAow.jpg?width=640&height=334&crop=smart&auto=webp&s=b32ffe1d04fa9afbd163e8f97f9fc38f0d358085" alt="" class="img-fluid"> -->
+                 <a href="#" style="color:#787C7E; text-decoration: none;"><i class="bi bi-hand-thumbs-up btn6" style="padding-right: 40px;"> 65k</i><i class="far fa-comment-alt btn6" style="padding-right: 40px;"> 28.5k comments</i> <i class="fas fa-share btn6" style="padding-right: 40px;"> Share</i> <i class="bi bi-three-dots"></i></a>
+                </div>
+              </div>
+              </div> 
+        
+              <div class="col-sm-8 col-lg-12 mb-2">
+                <div class="card py-0 mt-0" style="width: fit-content; padding-right: 35px;">
+                  <div class="card-body">
+                    <p class="lead2">Posted byu/AutoModerator -<span class="corn-let px-2">4 Day Friday, Aug 06 Tuesday.</span><button class="btn4"><i class="fas fa-plus"></i> join</button></p>
+                    <div class="h6">Game/Device Suggestion Requests, Support and General Discussion
+                      <button class="btn9">discussion</button></div>
+                    <img src="https://external-preview.redd.it/Zy8SkNGuEzxaaxDzUtM0y8UoP-gsL0FKFMGrNyUJqng.jpg?width=640&height=334&crop=smart&auto=webp&s=e2cc94a36d7af7bc0b12625ea408f3fabb9e4406" alt="" class="img-fluid">
+                   <a href="#" style="color:#787C7E; text-decoration: none;"><i class="bi bi-hand-thumbs-up btn6" style="padding-right: 40px;"> 65k</i><i class="far fa-comment-alt btn6" style="padding-right: 40px;"> 28.5k comments</i> <i class="fas fa-share btn6" style="padding-right: 40px;"> Share</i> <i class="bi bi-three-dots"></i></a>
+                  </div>
+                </div>
+                </div> 
+          </div>
+            
+              
+              
+      </div>
+
+      <div class="col d-none d-md-block">
+        <div class="card" style="width: 18rem;">
+          <img src="https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-align-center justify-content-center">Top Gamings</h5>
+            <p class="card-text text-align-center justify-content-center">
+            
+              <div class="accordion" id="accordionExample" style="border: none;">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button href="#" class="accordion-button" type="button" style="background-color: white;">
+                      1.GTA (New updated version)
+                    </button>
+                  </h2>
+                  </div>
+                </div>
+                <div class="accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button href="#" class="accordion-button" type="button" style="background-color: white;">
+                        2.r/olympics
+                      </button>
+                    </h2>
+                    </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button href="#" class="accordion-button" type="button" style="background-color: white;">
+                          3.r/nottheonion
+                        </button>
+                      </h2>
+                      </div>
+                    </div>
+
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button href="#" class="accordion-button" type="button" style="background-color: white;">
+                            4.r/worldnews
+                          </button>
+                        </h2>
+                        </div>
+                      </div>
+              </p>
+            
+            <button class="btn8">View all</button>
+            <div class="row">
+              <div class="col col-3">
+            <button class="btn7" >Top</button>
+          </div>
+          <div class="col col-3">
+            <button class="btn7 mx-0" >Sports</button>
+          </div>
+          <div class="col col-3">
+            <button class="btn7">News</button>
+          </div>
+          <div class="col col-3">
+            <button class="btn7">More</button>
+          </div>
+          
+          </div>
+          </div>
+        </div>
+
+       <div class="card" style="width: 18rem; margin-top: 10px;">
+         <div class="card-body">
+           <div class="row">
+             <div class="col col-1">
+    
+             </div>
+             <div class="col col-11" style="padding-right: 0px;">
+              <p class="text"><i class="fas fa-shield-alt py-2 h3 mt-0" style="margin-right: 10px;"></i><span class="foot-let">Reddit premium</span></p>
+              <p class="sub-text">The best Reddit experience, with monthly
+                Coins</p>
+                <button class="btn10">Try now</button>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="card mt-3" style="width: 18rem">
+         <div class="card-body">
+           <div class="row">
+             <div class="col-lg-5">
+               <p class="foot-let2">User Agreement</p>
+               <p class="foot-let2">Privacy Policy</p>
+             </div>
+             <div class="col-lg-7">
+              <p class="foot-let2">Content Policy</p>
+              <p class="foot-let2">Moderator Guidelines</p>
+            </div>
+           </div>
+           <div class="row">
+             <div class="col-12">
+            <p class="foot-let2 mb-0">&copy; 2021 Reddit, Inc. All rights reserved.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       
+
+      </div>
+    </div> 
+    </div>  
+</section>
+
+  <!-- Modal -->
+  <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#elog">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade p-5" id="log" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <p class="foot-form mx-4">By continuing, you agree to our<a href="#" class="foot-link"> User Agreement</a> and <a href="#" class="foot-link">Privacy Policy</a></p>
+      <div class="modal-body">
+        <form>
+            <div class="input mt-0">
+            <label for="Username">User Name:</label>
+          </br>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username"  style="border-radius: 0px;">
+          
+            <label for="Password">Password:</label>
+        </br>
+          <input type="password" class="form-control" placeholder="Password" aria-label="Password"  style="border-radius: 0px; padding-right: 10px;">
+           <br>
+           <button class="btn bg-primary text-light"  style="margin-left: 0px; margin-right: 10px; padding: 4px 210px 4px 200px;">log In</button>
+           <br>
+          <p class="foot-form mt-3 mx-2">Forgot your <a href="#" class="foot-link"> username</a> or <a href="#" class="foot-link">password ?</a></p>
+          <br>
+          <p class="foot-form mx-2">New to Reddit? <a href="#" class="foot-link"> SIGN UP</a></p>
+        </div>
+      </form>
+        </div>
+    </div>
+  </div>
+
+
+  
+  
+
+
+    <script src="clone.js"></script>
+
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+  </body>
+</html>

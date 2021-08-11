@@ -1,0 +1,252 @@
+body{
+    background-color: #DAE0E6;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px 0px rgb(50 50 50 / 5%);
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.collapse{
+    margin-right: 100px;
+}
+.dropdown-item{
+    margin-bottom: 8px;
+}
+.card{
+    box-shadow: 0px 1px 10px 0px rgb(50 50 50 / 30%);
+}
+.card:hover{
+    box-shadow: 0px 1px 10px 0px rgb(50 50 50 / 30%);
+    border-color: #787C7E;
+}
+.btn{
+    padding: 0px 33px 0px 33px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.form-control{
+    border-radius: 40px;
+    padding-right: 8px;
+    margin-right: 20px;
+}
+.form-control:hover{
+       border-color: rgb(0, 122, 223);
+}
+.btn:hover{
+    background-color: rgb(233, 233, 241);
+    color: blue;
+}
+.fab{
+    width: 5x;
+}
+.card{
+    
+    border-radius: 8px;
+    width:15rem;
+}
+.card-title{
+    font-weight: 700;
+    padding-left:50px;
+}
+.card-text{
+    padding-left: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.lead{
+    margin-left: 130px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.btn1{
+    padding: 3px 30px 3px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-right: 10px;
+    border: none;
+    color: blue;
+}
+.btn1:hover{
+    background-color: rgb(233, 233, 241);
+    color: blue;
+}
+.lead{
+    margin-top: 60px;
+}
+.lead1{
+    margin-top:30px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    padding-left: 119px;
+}
+.accordion-button{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+.accordion-inner{
+    border-radius:30px;
+}
+.lead2{
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.corn-let{
+    font-size: 13px;
+    font-weight: 600;
+    color: #787C7E;
+    margin-bottom: 20px;
+}
+.num{
+    font-size: 13px;
+}
+.btn4{
+    /* padding: 2px 10px 2px 10px; */
+    border-radius: 30px;
+    font-weight: 600;
+    /* margin-left: 220px; */
+    /* margin-right: 10px; */
+    border: none;
+    color: rgb(238, 238, 245);
+    background-color: #1484D6;
+}
+.btn4:hover{
+    background-color: rgb(38, 178, 243);
+}
+
+.btn5{
+    border-radius: 30px;
+    border: none;
+    color: #0079D3;
+    font-weight: 700;
+    font-size: 15px;
+    padding:8px;
+    margin-left: 10px;
+}
+.btn5:hover{
+    background-color: #ece4e4;
+}
+.custom-toggler{
+    border-radius: 10px;
+    border-color: black;
+    border: none;
+}
+.custom-toggler:hover{
+    border: none;
+}
+.fas:focus-visible{
+    background-color: #DAE0E6;
+}
+.btn6{
+     padding: 9px 5px 9px 4px;
+}
+.btn6:hover{
+      background-color: #DAE0E6;
+      
+}
+.btn7{
+    font-size: 14px; 
+    padding: 0px 8px 0px 8px; 
+    background-color: rgb(247, 241, 247); 
+    color: #0079D3; 
+    margin-left: 1px; 
+    font-weight: 600;  
+    margin-right: 0px;  
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+}
+.btn7:hover{
+    
+    background-color: #b5bdc5;
+}
+.btn8{
+    border:none;
+    margin-left: 45px;
+    padding:5px 50px 5px 50px;
+    border-radius: 30px;
+    background-color: #0079D3;
+    color: #DAE0E6;
+    font-weight: 600;
+}
+.btn8:hover{
+    background-color: #1968a5;
+}
+
+
+
+
+.btn9{
+    border-color: rgb(51, 255, 0); 
+    border: none; 
+    color: rgb(253, 247, 247); 
+    font-size: 12px; 
+    border-radius: 20px; 
+    background-color: #007373; 
+    font-weight: 600;
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+}
+.btn9:hover{
+    background-color:#1c6161
+}
+
+.text{
+    font-size: 13px;
+    font-weight:500;
+    margin-bottom:0px;
+}
+.sub-text{
+    font-size: 12px;
+    font-weight:500;
+    color: #787C7E;
+    padding-right: 1px;
+}
+.btn10{
+    background-color: orangered; 
+    border-radius: 30px;
+    border: none; 
+    padding: 4px 70px 4px 70px;
+    margin-left: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.btn10:hover{
+    background-color: rgb(226, 61, 6);
+}
+
+.foot-let{
+    margin-top: 0rem; 
+    padding-top: 0px; 
+    padding-bottom: 0px;
+}
+.foot-let2{
+    font-size: 12px;
+    font-weight: 600;
+}
+.dropdown-item{
+    color: #878A8C;
+}
+.foot-form{
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+.foot-link{
+    text-decoration: none;
+}
+.form-control:hover{
+    border-color: #787C7E;
+}
+
+/* 
+style="border-color: rgb(51, 255, 0); border-width: thin; color: rgb(253, 247, 247); font-size: 12px; border-radius: 20px; background-color: #007373; font-weight: 600;"
+*/
